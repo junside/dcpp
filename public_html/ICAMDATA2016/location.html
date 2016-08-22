@@ -1,0 +1,522 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE> ICAMDATA 2016 </TITLE>
+<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="css/ie6_or_less.css" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script>
+
+var nCount = 0;
+var $img1 = null;
+
+jQuery(document).ready(function(){
+	// 초기화.
+	init();
+	// 타이머 시작.
+	start();
+});
+		
+function init(){			
+	//1. image Element 구하기.
+	this.$img1 = $("#img1");
+}
+function start(){
+	// 1초에 한번씩 changeImage()함수를 호출하는 타이머를 실행시킵니다.
+	setInterval(this.changeImage,3000);
+}
+
+// 이미지 변경은 여기에서
+function changeImage(){
+	this.nCount++;
+	//현재 숫자값이 11을 넘게 되면 다시 1로 만들어주면 되겠죠?
+	if(this.nCount>=16)
+		this.nCount	= 1;
+	
+	//2. image 속성 변경하기.
+	this.$img1.attr("src","images/img"+this.nCount+".jpg");
+}
+
+//새창띄우기
+function openNewWindow(window) {
+	open (window,"NewWindow","left=0, top=0, toolbar=yes, location=yes, directories=yes, status=yes, menubar=yes, scrollbars=yes, resizable=yes, width=1260, height=850");
+}
+
+//D-Day 
+function jhsdday(y, m, d)
+{
+today = new Date();
+dday = new Date(y, m-1, d);
+n = Math.floor((dday.getTime()-today.getTime())/86400000)+1;
+// 86400000 = 24시간*60분*60초*1000
+document.write(n)
+}
+</script>
+</head>
+<body id="type-d" onload="initialize()">
+<!-- 위로 버튼 Start -->
+<a style="display:scroll;position:fixed;bottom:30px;right:235px;" rel="nofollow"
+href="#" title="Back to Top" style="font-size:2em"><img src="./images/top.png" border="0"/></a>
+<!-- 위로 버튼 END -->
+<div id="wrap">
+	<div id="header">
+	<br />
+		<div id="site-name-m">The 10th International Conference on Atomic and Molecular Data and Their Applications</div>
+		<div id="site-name-s">September 25 ~ 29, 2016, Gunsan Saemangeum Convention Center (GSCO), Gunsan, Republic of Korea</div><ul id="nav">
+			<li class="first"><a href="index.html">Home</a></li>
+			<li><a href="informations.html">Informations</a>
+			</li>
+			<li><a href="speaker.html">Invited Speakers</a>
+			</li>
+			<li><a href="registration.html">Registration</a>
+			</li>
+			<li><a href="programs.html">Programs</a>
+			</li>
+			<li><a href="abstract.html">Abstract</a>
+			</li>
+			<li><a href="location.html">Venue</a>
+			</li>
+			<li><a href="committee.html">Committees</a>
+			</li>
+			<li><a href=javascript:openNewWindow("http://physics.nist.gov/Icamdata/Homepage/charter.html")>History</a>
+				<ul>
+				<li><a href=javascript:openNewWindow("http://physics.nist.gov/Icamdata/Homepage/charter.html")>ICAMDATA Charter</a></li>
+				<li class="last"><a href=javascript:openNewWindow("http://physics.nist.gov/Icamdata/Homepage/icamdata.html")>ICAMDATA History</a></li>
+				</ul>
+			</li>
+			<li><a href="contact.html">Contact us</a>
+			</li>
+		</ul>
+	</div>
+	
+	<div id="content-wrap">
+		
+		<div id="content">
+		
+			<div id="breadcrumb">
+				<a href="index.html">Home</a> / <strong>Venue</strong>			
+			</div>
+			<br/>
+			Go to 	
+			<strong>				
+			<a href="location.html#accommodation">Accommodation</a>,			
+			<a href="location.html?id=9#currency">Currency</a>,
+			<a href="location.html?id=9#creditcards">Credit Cards</a>,
+			<a href="location.html?id=9#tax">Tax</a>,
+			<a href="location.html?id=9#tipping">Gratuities (Tipping)</a>,
+			<a href="location.html?id=9#electricity">Electricity</a>,
+			<a href="location.html?id=9#transportation">Transportation</a>
+			<a href="location.html?id=9#visa">Travel Visa</a>
+			</strong>
+			
+			<h1>Venue</h1>
+			
+			<div class="article01">Gunsan city is near to the West sea and located in Jeollabuk-do Province 
+			in Republic of Korea. It is well known as a tumultuous historical sites, 
+			such as Gunsan Customs Office, Chosun Bank Gunsan Brance, Warehouse of Korea Express Co.,Ltd etc.
+			 Also, Gunsan, located on the edge of central western coast, as a waist of the Korean peninsula, 
+			is in 2~3 hours away from anywhere in Korea (231km away from Seoul and 337km away from Busan). 
+			It is also the central city of Saemangeum, the biggest reclamation project after the origination of 
+			the country, and a port city of 114 years of history with various international routes, 
+			located 563km away from Qingdao, China, which is the shortest distance in Korea.<br/> 
+			For more information, visit Gunsan&#39;s official <a href=javascript:openNewWindow("http://eng.gunsan.go.kr/index.gunsan")>website</a>. 
+			</div>			
+			<div class="article01">The Saemangeum Seawall, located on the southwest coast of the Korean peninsula, is the world's 
+			longest man-made dyke, measuring 33 kilometres. 
+			It runs between two headlands, and separates the Yellow Sea and the former Saemangeum estuary.
+			</div>
+			<div class="article01">The Gunsan Saemangeum Convention Center (GSCO), the core facility in Saemanguem, Gunsan, 
+			Jeollabuk-do Province, has opened on July 4, 2014. A KRW 18 billion has been invested into the GSCO, 
+			a three-story building.
+			The Center is composed of a convention hall with 2,000 seating capacity for events such as 
+			exhibitions, EXPOs, international conferences, and seminars, 9 meeting rooms and company 
+			support facilities.
+			</div>		
+			<br/>			
+			<div class="cont_img">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12919.256732002624!2d126.58513962698517!3d35.951515285424776!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x69f8019fe791f9fc!2z6rWw7IKw7IOI66eM6riI7Luo67Kk7IWY7IS87YOA!5e0!3m2!1sko!2sus!4v1459735089777" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				&lt;Google map&gt;
+			</div>			
+			
+			<a name="accommodation"></a>
+			
+			<h1>Accommodation</h1>
+			<!-- 
+			<div class="article01">
+			Blocks of rooms have been made at following two hotels which bus service will be provided to the conference.
+			</div>
+			<h4>
+					&#183; Deadline for submission of abstracts (Extended): <s>June 30, 2016</s> -> <strong><font color = red>~ July 15, 2016</font></strong></br>
+					&#183; Deadline for registration : July 15, 2016 </br>
+					&#183; Deadline for hotel reservations : August 15, 2016 </br>
+					&#183; Deadline for cancellation reservation : August 31, 2016 </br>
+					&#183; Deadline to get an invitation letter : August 10, 2016 </br>
+					&#183; Conference Dates : September 25 ~ September 29, 2016
+				</h4>
+			 -->
+			<div class="article01">
+			* Deadline for hotel reservations is <u>August 15, 2016.</u>
+			</div>
+			<strong>&#183; Main Hotel</strong>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" class="table10">
+				<tr>
+					<th width="20%"></th>
+					<th width="80%" class="ttn">
+						Ramada Gunsan Hotel
+					</th>					
+				</tr>
+				<tr>
+					<td>Description</td>			
+					<td class="ttntl">
+					Ramada Gunsan Hotel provides an extensive event space and easy access to area businesses and attractions. 100% non-smoking hotel offers a tranquil onsite Spa, a well-equipped fitness center and is walking distance from a pleasant jogging course, so that guests can stay refreshed and relaxed throughout their stay. Guest rooms provide free high-speed WiFi, air conditioning, mini fridge, in-room safe, flat screen HDTV, as well as coffee and tea facilities.
+					</td>
+				</tr>
+				<tr>
+					<td>Features & Amenities</td>			
+					<td class="ttntl">
+					&#183; Fitness Center <br/>
+					&#183; Restaurant Delivery Service<br/>
+					&#183; Conference Room<br/>
+					&#183; 100% Non-Smoking Property etc.<br/>
+					<strong>&#183; The welcome party will be held in this hotel.</strong><br/>
+					&#183; Nearly located the lake and complex of shops and restaurants, affording nice opportunities for evening strolls, etc.<br/>
+					&#183; The bus service will be provided here to conference hall.<br/>
+					</td>
+				</tr>
+				<tr>
+					<td>Restaurants</td>			
+					<td class="ttntl">
+					The restaurant offers plenty of delicious delights from traditional Korean dishes to western style cuisine, along with a handpicked selection of foods offered on our room service menu.
+					</td>
+				</tr>
+				<tr>
+					<td>Charge</td>			
+					<td class="ttntl">
+					&#183; Standard : KRW 90,000 (Breakfast not included)<br/>
+ 					&#183; Deluxe : KRW 100,000 (Breakfast not included)<br/>
+ 					&#183; Breakfast : KRW 13,000					
+					</td>
+				</tr>
+				<tr>
+					<td>Location</td>			
+					<td class="ttntl">
+					400, Daehak ro, Gunsan, Jeolla Buk-do, Korea<br/>
+ 					&#183; TEL : 82-63-443-8000<br/>
+  					&#183; FAX : 82-63-442-2111 										
+					</td>
+				</tr>
+				<tr>
+					<td>Reservation</td>
+					<td colspan="2" class="ttntl">
+						Please fill out the attached reservation <a href="./files/Ramada_Gunsan_Hotel(ICAMDATA2016).docx">form</a> and send it to the hotel directly by <a href="mailto:rsv@ramadagunsan.com">E-mail</a> or Fax. <br/>
+						* Note that the use of other booking platforms does not guarantee the reduced price.
+					<!--
+					<a href=javascript:openNewWindow("http://www.ramadagunsan.com/view/reservation.do")>Reservation</a>
+					-->
+					</td>
+				</tr>	
+			</table>	
+			<br/>
+			
+			<strong>&#183; Sub Hotel</strong>	
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" class="table10">		
+				<tr>
+					<th width="20%"></th>
+					<th width="80%" class="ttn">
+						Best Western Hotel (4-star hotel)
+					</th>					
+				</tr>
+				<tr>
+					<td>Description</td>			
+					<td class="ttntl">
+					The Best Western Gunsan Hotel provides an exceptional stay for everyone from family vacationers to those travelling on business. The hotel is suitable for both short or long-term stays, and the rooms are designed to ultimate comfort and fully equipped to meet all needs of business and leisure travelers. Relax and unwind in our rooms with views of Saemangeum Seawall and the Yellow Sea. 
+ 					Also, Those travelling on business purposes love the fact that the hotel is located within 20 minutes of Gunsan Industrial Zone. 
+ 					Many corporate offices are located and you can enjoy convenient access to GM, Chevrolet, and World Vision Korea office.
+					</td>
+				</tr>
+				<tr>
+					<td>Features & Amenities</td>			
+					<td class="ttntl">
+					&#183; Pool <br/>
+					&#183; Fitness Center <br/>
+					&#183; Restaurant Onsite<br/>
+					&#183; Hot Tub<br/>
+					&#183; Eco-Friendly etc.<br/>
+					<strong>&#183; This hotel is very close to conference hall.</strong>
+					</td>
+				</tr>
+				<tr>
+					<td>Restaurants</td>			
+					<td class="ttntl">
+					Patio, on premises, buffet, international, open for: breakfast, lunch, hours 7:00 a.m. to 3:00 p.m.
+ 					4.50 kilometer(s) from Gunsan Fishery Market, full service, seafood, open for: lunch, dinner, hours 9:00 a.m. to 6:00 p.m. Moderate price.
+					</td>
+				</tr>
+				<tr>
+					<td>Charge</td>			
+					<td class="ttntl">
+					&#183; Twin / Double : KRW 100,000 (Discounted rate, Breakfast not included)<br/> 				
+ 					&#183; Breakfast : KRW 14,000					
+					</td>
+				</tr>
+				<tr>
+					<td>Location</td>			
+					<td class="ttntl">
+					435(Oshikdo-dong), Saemangeum Buk-ro, Gunsan, Jeolla Buk-do, Korea<br/>
+ 					&#183; TEL : 82-63-469-1234<br/>
+  					&#183; FAX : 82-63-469-1220 										
+					</td>
+				</tr>				
+				<tr>
+					<td>Reservation</td>
+					<td colspan="2" class="ttntl">
+						Please fill out the attached reservation <a href="./files/Best_Western_Gunsan_Hotel(ICAMDATA2016).xlsx">form</a> and send it to the hotel directly by <a href="mailto:yspark@gunsanhotel.co.kr">E-mail</a> or Fax. <br/>
+						* Note that the use of other booking platforms does not guarantee the reduced price.
+					<!--
+					<a href=javascript:openNewWindow("https://www.bestwestern.co.kr/en/hotels/best-western-gunsan-hotel-gunsan-99520")>Reservation</a>
+					-->
+					</td>
+				</tr>
+								
+			</table>		
+			<!--
+			<div style="text-align:right">			
+			<strong>&#183; To recieve the discounted rate, reservations must be made by July 30, 2016.</strong>
+			</div>
+			-->
+			
+			<br/>	
+		
+			
+			<a name="currency"></a>
+			<h1>Currency</h1>		
+					
+			<div class="article01">
+			The unit of Korean currency is the Won (￦/KRW). Coin denominations are ￦10, ￦50, ￦100 and ￦500. 
+			Banknotes are ￦1,000, ￦5,000, ￦10,000 and ￦50,000.<br/>
+			Currency exchange: Foreign banknotes and traveler's check can be exchanged at foreign exchange banks and other authorized moneychangers. 
+			ATM machines are available at banks and major shopping centers.
+			</div>
+			
+			<br/>	
+		
+			<a name="creditcards"></a>
+			<h1>Credit Cards</h1>
+									
+			<div class="article01">
+			Diners Club, Visa, American Express and MasterCard are widely accepted at major hotels, shops and restaurants in the larger cities. 
+			Check with your credit card company for details of merchant acceptability and other services which may be available.
+			</div>
+			
+			<br/>	
+			
+			<a name="tax"></a>
+		
+			<h1>Tax</h1>
+			
+			<div class="article01">
+			Value-added tax (VAT) is levied on most goods and services at a standard rate of 10% and is included in the retail price.
+			In tourist hotels, this 10% tax applies to meals and other services and is added into the bill.
+			</div>
+			
+			<br/>	
+		
+			<a name="tipping"></a>
+		
+			<h1>Gratuities (Tipping)</h1>
+			
+			<div class="article01">
+			Tipping is not a traditional custom in Korea. A 10% service charge will be added to your bill at all tourist restaurants and hotels. 
+			It is also not necessary to tip a taxi driver unless he assists you with luggage or provides an extra service.
+			</div>
+			
+			<br/>	
+		
+			<a name="electricity"></a>
+		
+			<h1>Electricity</h1>
+			
+			<div class="article01">
+			In Korea, electrical outlets are operated at 220 volt only. 
+			Overseas delegates bringing laptop computers and other electrical appliances are advised to check whether a transformer is required.
+			</div>
+			
+			<br/>
+		
+			<a name="transportation"></a>			
+			<h1>Transportation</h1>	
+					
+			<div class="article01">
+			You can get to the Gunsan Bus Terminal by Limousine bus at Bus stop No. <font color=red><strong>9C</strong></font>, Incheon International Airport.<br/>
+			Bus stop No. <font color=red><strong>9C</strong></font> is located in outside of airport building.<br/><br/>
+			
+			<div class="cont_img"><img src="images/content/bus_map.png" alt="" width=622 /></div>
+			
+			<strong>&#183; Limousine bus Schedule at Incheon International Airport</strong>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" class="table10">
+				<tr>
+					<th width="11%">Route Name</th>
+					<th width="11%">Bus Type</th>
+					<th width="20%">Station</th>
+					<th width="15%">Bus Stop No.</th>
+					<th width="20%">Time line of<br/>departing Buses</th>
+					<th width="12%">Travelling Time</th>
+					<th width="11%"class="ttn">Fare</th>
+				</tr>				
+				<tr>
+					<td><strong><font color=blue>Gunsan</font></strong> (Jeonra)</td>
+					<td>Limousine</td>
+					<td>Songdo U Transfer Center - Daeya - <strong><font color=red>Gunsan</font></strong></td>
+					<td>1st Floor 9C</td>
+					<td>09:50, 11:00, 14:40, 16:40, 20:40, 21:40</td>
+					<td>200 min.</td>
+					<td class="ttn">KRW 23,700</td>
+				</tr>
+				<tr>
+					<td><strong><font color=blue>Gunsan</font></strong> (Jeonra)</td>
+					<td>Limousine</td>
+					<td>Songdo U Transfer Center - Daeya - <strong><font color=red>Gunsan</font></strong> - Iksan</td>
+					<td>1st Floor 9C</td>
+					<td>08:20, 12:50, 15:40, 17:10, 18:10, 19:00</td>
+					<td>200 min.</td>
+					<td class="ttn">KRW 23,700</td>
+				</tr>
+			</table>
+			<br/>
+			<strong>&#183; Limousine bus Schedule at Gunsan Intercity Bus Terminal</strong>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" class="table10">
+				<tr>
+					<th width="11%">Route Name</th>
+					<th width="11%">Bus Type</th>
+					<th width="20%">Station</th>
+					<th width="15%">Bus Stop No.</th>
+					<th width="20%">Time line of<br/>departing Buses</th>
+					<th width="12%">Travelling Time</th>
+					<th width="11%"class="ttn">Fare</th>
+				</tr>				
+				<tr>
+					<td><strong><font color=blue>Incheon International Airport</font></strong></td>
+					<td>Limousine</td>
+					<td><strong><font color=red>Last station is Incheon International Airport.</font></strong></td>
+					<td>No. 13, No. 14</td>
+					<td>03:30, 04:10, 05:10, 06:10, 07:10, 08:10, 09:10, 10:10, 13:10, 14:30, 15:30, 16:30</td>
+					<td>200 min.</td>
+					<td class="ttn">KRW 23,700</td>
+				</tr>				
+			</table>
+			(You may prepare the bus fare in Korean Won or purchase the bus ticket at the bus ticket office at the airport in advance.)
+			</div>
+						
+			<a name="visa"></a>
+			<h1>Travel Visa</h1>
+			
+			<div class="article01">
+			Any foreign visitors wishing to enter the Republic of Korea must have a valid passport and obtain a Korean visa before the visitation. 
+			However, people of 90 countries who wish to visit Korea temporarily are permitted to enter without a visa according to visa-exemption agreements or in accordance with principles reciprocity or national interest. 
+			More information about visa-free entries for foreigners, For more information about the visa, please, contact the <a href=javascript:openNewWindow("http://www.hikorea.go.kr/pt/InfoDetailR_en.pt?categoryId=2&parentId=382&catSeq=&showMenuId=374")>website</a>.
+			<br/><br/>
+			An official letter of invitation will be sent to any registrant upon request. However, this invitation implies no obligation for visa.
+			If you need a letter of invitation for participating in the ICAMDATA 2016, 
+			please email to the Secretariat at <a href="mailto:icamdata2016@nfri.re.kr">icamdata2016@nfri.re.kr</a>.  
+			
+			<br/><br/>
+			<strong>Your invitation letter request must include the following details:</strong><br/>
+			&nbsp;&nbsp;1. Participant's full name<br/>
+			&nbsp;&nbsp;2. Nationality <br/>
+			&nbsp;&nbsp;3. Name of the Affiliation (University, Company, etc.)<br/>
+			&nbsp;&nbsp;4. Department <br/>
+			&nbsp;&nbsp;5. Address of the Affiliation (University, Company, etc.)<br/>
+			</div>			
+
+			<strong>* Countries under Visa Exemption Agreement (65 Countries)</strong>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" class="table10">
+				<tr>
+					<th width="20%">Type</th>
+					<th width="20%">Continents</th>
+					<th width="60%"class="ttn">Countries</th>
+				</tr>				
+				<tr>
+					<td rowspan="4">Ordinary, Diplomatic, <br/>Official passport</td>
+					<td>Asia<br/>(4 countries)</td>
+					<td class="ttntl">Malaysia, New Zealand, Singapore, Thailand</td>				
+				</tr>
+				<tr>					
+					<td>America<br/>(25 countries)</td>
+					<td class="ttntl">Antigua and Barbuda, Bahamas, Barbados, Brazil, Chile, Colombia, Commonwealth of Dominica, Costa Rica, Dominican Republic, El Salvador, Guatemala, Haiti, St. Vincent Jamaica, Mexico, Nicaragua, Panama, Peru, St. Lucia, St. Kitts, Nevis, Suriname, Trinidad-Tobago, Venezuela, Uruguay, Grenada, Saint Vincent and the Grenadines</td>
+				</tr>
+				<tr>					
+					<td>Europe<br/>(31 countries)</td>
+					<td class="ttntl">Austria, Belgium, Bulgaria, Czech, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, Turkey, United Kingdom, Russia</td>
+				</tr>
+				<tr>
+					<td>Africa & Middle East<br/>(5 countries)</td>
+					<td class="ttntl">Israel, Lesotho, Liberia, Morocco, Tunisia</td>					
+				</tr>
+			</table>
+			<br/>
+			<strong>* Nationals of countries or regions allowed for visa-free entry (50 countries)</strong>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" class="table10">
+				<tr>
+					<th width="20%">Continents</th>
+					<th width="80%"class="ttn">Countries</th>
+				</tr>				
+				<tr>
+					<td>Asia<br/>(6 countries)</td>
+					<td class="ttntl">Brunei, Hong Kong, Indonesia, Japan, Macau, Taiwan</td>				
+				</tr>
+				<tr>					
+					<td>America<br/>(7 countries)</td>
+					<td class="ttntl">Argentina, Canada, Ecuador, Guyana, Honduras, Paraguay, United States,</td>
+				</tr>
+				<tr>					
+					<td>Europe<br/>(11 countries)</td>
+					<td class="ttntl">Albania, Andorra, Bosnia-Herzegovina, Croatia, Cyprus, Monaco, Montenegro, San Marino, Serbia, Slovenia, Vatican</td>
+				</tr>
+				<tr>					
+					<td>Oceania<br/>(13 countries)</td>
+					<td class="ttntl">Australia, Fiji, Guam, Kiribati, Marshall Islands, Micronesia, Nauru, New Caledonia, Palau, Samoa, Solomon Islands, Tonga, Tuvalu</td>
+				</tr>				
+				<tr>
+					<td>Africa &Middle East<br/>(13 countries)</td>
+					<td class="ttntl">Bahrain, Egypt, Kuwait, Lebanon, Mauritius, Oman, Qatar, Saudi Arabia, Seychelles, South Africa, Swaziland, United Arab Emirates, Yemen</td>					
+				</tr>
+			</table>
+			<br/>
+		</div>
+		<div id="poweredby"><a href="http://icamdata2016.nfri.re.kr/"><img src="wsimages/icam_logo_2.png" alt="icamdata 2016" width=220 height=80/></a></div>
+		<div id="footer">
+			<a href="http://www.nfri.re.kr/"><img src="wsimages/nfri_logo.png" alt="National Fusion Research Institute" width=110 height=35/></a>
+			<p class="title">Plasma Technology Research Center, National Fusion Research Institute</p>
+			<p>Address : 37 Dongjangsan-ro, Gunsan-si, Jeollabuk-do, Korea</p>  
+			<p>Tel : +82-63-440-4210, Fax : +82-63-466-7001</p>
+		</div>		
+				
+		<div id="sidebar">
+			<div class="featurebox">
+			<h3 align="center">Gunsan, Korea</h3>
+			<p align="center">
+			   <img id=img1 src="images/img1.jpg" />
+			</p>
+			</div>			
+			<p align="center">
+				<embed src="http://www.weatherlet.com/weather.swf?locid=KSXX0046&unit=m" title="Free Online Weather for WordPress, Blogspot, Blogger, Drupal, TypePad, MySpace, Facebook, Bebo, Piczo, Xanga, Freewebs, Netvibes, Pageflakes, iGoogle and other blogs and web pages" quality="high" wmode="transparent" bgcolor="#CC00CC" width="184" height="76" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /><br>
+				<a href="http://www.weatherlet.com/?locid=KSXX0046&cityname=Kunsan%2C+South+Korea&unit=m" title="Kunsan, South Korea Local Weather" target="_blank"><small>Gunsan(Kunsan), South Korea Local Weather</small></a>
+			</p> 
+			<h1 align="center">D -
+            <script language="JavaScript">
+			 jhsdday(2016, 9, 25);
+			</script>
+			</h1>
+		</div>	
+		
+	</div>
+	
+</div>
+</body>
+</html>

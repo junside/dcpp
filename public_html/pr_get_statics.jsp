@@ -1,0 +1,56 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<link href="./css/common.css" rel="stylesheet" type="text/css" />
+<title>AJAX를 이용한 입력 통계 자료 TEST</title>
+<script language ="javascript" type="text/javascript">
+
+var request = null;
+
+function createRequest(){
+	try{
+		request = new XMLHttpRequest();
+	}catch(trymicrosoft){
+		try{
+			request = new ActiveXObject("Msxml2.XMLHTTP");
+		}catch(othermicrosoft){
+			try{
+				request = new ActiveXObject("Microsoft.XMLHTTP");
+			}catch(failed){
+				request = null;
+			}
+		}
+	}
+
+	if(request == null){
+		alert("Error creating request object!!");
+	}
+}
+
+</script>
+</head>
+<body>
+<h1>Boards "R" Us :: Insert Reports</h1>
+<div id ="boards">
+	<table>
+		<tr>
+			<th> dcpp1 insert total : </th>
+			<td><span id ="boards-dcpp1-insert">1012</span>
+			</td>
+		</tr>
+		<tr>
+			<th> dcpp2 insert total : </th>
+			<td><span id ="boards-dcpp2-insert">1012</span>
+			</td>
+		</tr>
+	</table>
+	<h2>Today's Total Insert : <span id="total-insert">1000</span></h2>
+	<form method="GET" action="">
+		<input value="Show me the insert total" type="submit">
+	</form>
+</div>
+</body>
+</html>

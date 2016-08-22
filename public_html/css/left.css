@@ -1,0 +1,179 @@
+body {
+	font-family: "±¼¸²";
+	font-size: 12px;
+	color: #666666;
+	background-repeat: no-repeat;
+}
+
+.login_form_area {
+	margin-left: 19px;
+	width: 142px;
+}
+
+.login_form_area input
+	{
+	padding-left: 3px;
+	border-bottom: #ffffff 1px solid;
+	border-left: #ABD6EC 1px solid;
+	border-right: #ABD6EC 1px solid;
+	border-top: #ABD6EC 1px solid;
+	width: 95px;
+	height: 15px;
+}
+
+.login_form_area input[type=text], .login_form_area input[type=password]
+	{
+	padding-left: 3px;
+	border-bottom: #ffffff 1px solid;
+	border-left: #ABD6EC 1px solid;
+	border-right: #ABD6EC 1px solid;
+	border-top: #ABD6EC 1px solid;
+	width: 95px;
+	height: 15px;
+}
+
+.login_form_area p {
+	background-image: url(http://localhost:8080/acoms25/acoms/img/bt_icon.gif);
+	background-repeat: no-repeat;
+	margin: 3px 0px 0px 0px;
+	padding-left: 20px;
+}
+
+.myjob_area {
+	border: 1px dotted #888888;
+	margin: 7px 19px;
+	padding-left : 13px;
+	width: 142px;
+	height: 88px;
+}
+
+div.hotlink_area1 {
+	margin: 7px 19px;
+	padding-left: 13px;
+	width: 142px;
+}
+
+#leftnav li {
+	border-color: #7A79A7;
+	border-style: solid;
+}
+
+#leftnav a, 
+#leftnav a:link, 
+#leftnav a:visited, 
+#leftnav a:hover, 
+#leftnav a:active {
+	background-color: #595791;
+	background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_bullet.gif);
+	background-position: 3% 50%;
+	background-repeat: no-repeat;
+	color: #fff;
+	/*  font-size: 0.9em;  */
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#leftnav a:hover, 
+#leftnav a:active {
+	background-color: #8583B2;
+	background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_bullet_hover.gif);
+	color: #292556;
+}
+
+#leftnav a.nolink, 
+#leftnav a.nolink:link, 
+#leftnav a.nolink:visited, 
+#leftnav a.nolink:hover, 
+#leftnav a.nolink:active {
+	background-color: #595791;
+	background-image: url(/eclipse.org-common/themes/Phoenix/images/leftnav_bullet.gif);
+	background-position: 3% 50%;
+	background-repeat: no-repeat;
+	color: #999999;
+	/* font-size: 0.9em;   */
+	text-decoration: none;
+}
+
+#leftnav li.separator {
+	border-color: #7A79A7;
+	background-color: #7A79A7;
+	border-style: solid;
+}
+
+#leftnav a.separator, 
+#leftnav a.separator:link, 
+#leftnav a.separator:visited, 
+#leftnav a.separator:hover, 
+#leftnav a.separator:active {
+	background-color: #7A79A7;
+	background-image: none;
+	color: #fff;
+	/*   font-size: 0.9em;   */
+	text-decoration: none;
+}
+
+
+#hotlink_area {
+	margin-top: 5px;
+	margin-left: 0;
+	list-style: none;
+}
+
+#hotlink_area li {
+	margin-bottom: 3px;
+	list-style-type: none;
+}
+
+
+
+
+/*---left_menu¿¡ »ç¿ëµÈ css ------*/
+table.left_menu{
+width: 150px; empty-cells: show;
+
+	font-family:"±¼¸²"; 
+	font-size:12px; 
+	color:#3184CC;
+}
+
+table.menu1{
+	width:150px; empty-cells: show;
+	font-family:"µ¸¿ò"; 
+	font-size:12px; 
+	font-weight: bold;
+	color:#3184CC;
+}
+
+table.left_line{
+	width: 140px; 
+	font-family:"±¼¸²"; 
+	font-size:12px; 
+	color:#266C8E;
+	font-style: normal; 
+	font-weight: normal;
+}
+
+table.left_line td.line{
+	
+	border-bottom: 1px  solid #CCE5F1;
+	padding-left: 5px;
+	height: 23px;
+}
+
+table.left_area { width: 160px;  border: 1px solid #BED7EB; }
+
+table.left_area td.padding { padding:12 16 12 13 }
+
+div.left_icon {
+	padding-left : 17px;
+	margin: 0px
+	width: 9px;
+	background-image: url(http://acoms1.kisti.re.kr/shared/acoms/img/left_icon.gif); 
+	background-repeat: no-repeat; 
+}
+
+.leftlink				{font-family: "µ¸¿ò"; font-size:12px; color:#585858; text-decoration:none; font-weight: normal;}
+	A:link		{font-family: "µ¸¿ò"; font-size:12px; color:#585858; text-decoration:none; font-weight: normal;}
+	A:active 	{font-family: "µ¸¿ò"; font-size:12px; color:#585858; text-decoration:none; font-weight: normal;}
+	A:visited	{font-family: "µ¸¿ò"; font-size:12px; color:#585858; text-decoration:none; font-weight: normal;}
+	A:hover	{font-family: "µ¸¿ò"; font-size:12px; color:#F7740A; text-decoration:none; font-weight: normal;}

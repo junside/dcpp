@@ -1,0 +1,6 @@
+hot.gif
+hot1.gif
+level.gif
+new.gif
+re.gif
+Thumbs.db

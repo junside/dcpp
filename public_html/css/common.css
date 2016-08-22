@@ -1,0 +1,1370 @@
+body{
+	SCROLLBAR-FACE-COLOR: #E8E8E8; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #E6E6E6; 
+	SCROLLBAR-SHADOW-COLOR: #bdbdbd; 
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-ARROW-COLOR: #525252; 
+	SCROLLBAR-TRACK-COLOR: #f4f4f4; 
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	color: #585858; 
+	margin:0; 
+	font-family: "돋움", Dotum, Verdana, sans-serif;
+	}
+
+img { border:0 }
+
+em {	 color: #FF8888;	}
+
+table {
+	border-collapse:collapse;
+	empty-cells: show;
+	margin-bottom:2em;
+	}
+
+input, textarea, select	{
+	padding-left: 5px;	
+	BORDER-BOTTOM: #DADADA 1px solid;
+	BORDER-LEFT: #DADADA 1px solid;
+	BORDER-RIGHT: #DADADA 1px solid;
+	BORDER-TOP: #DADADA 1px solid; 
+	}
+
+
+/* ------ P제목1-------------------------------------------*/	
+p.level1 {
+	height:10px;
+	color: #585858;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px 0px 0px 25px;
+	background: url('../images/icon_cont/buttet_00.gif') no-repeat;
+}
+
+/* ------ P제목2-------------------------------------------*/	
+p.level2 {
+	color: #996633;
+	text-align:left;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 5px 0px 0px 15px;
+	background: url('../images/icon_cont/buttet_00.gif') no-repeat 0px;
+}
+
+/* -----도움말---------------------------------------------*/	
+span.count{
+	color: #FF3300;
+	text-align:left;
+	font-size: 12px;
+	padding: 4px 0px 0px 11px;
+	marign:2px 0px 2px 0px;
+	background: url('../images/icon_cont/arrow_02.gif') no-repeat 0px;
+}
+
+/* -----도움말---------------------------------------------*/	
+span.help{
+	color: #5E749E;
+	text-align:left;
+	font-size: 12px;
+	padding: 4px 0px 0px 11px;
+	marign:2px 0px 2px 0px;
+	background: url('../images/icon_cont/arrow_02.gif') no-repeat 0px;
+}
+/* ------------  table 11  -------------------------------*/
+table.tab11 {
+	width: 250px;
+	font-size:0.8em;
+	}
+table.tab11 td{
+	padding: 0.2em;
+}
+/* ------------  table 10  -------------------------------*/
+table.tab10 {
+	width: 300px;
+	font-size:0.8em;
+	}
+table.tab10 td{
+	padding: 0.2em;
+}
+
+table.tab10 td.tdl{ text-align:left ; vertical-align: middle; }
+table.tab10 td.tdlt{ text-align:left ; vertical-align: top; }
+table.tab10 td.tdlbold{ text-align:left; vertical-align: middle; font-weight :bold; font-size:15px;}
+table.tab10 td.tdl1{
+	text-align:left;
+	font-size:12px;
+	padding-left:40px;
+	vertical-align: middle;
+	background-image: url(../images/icon_cont/arrow_03.gif);
+	background-align: middle;
+	background-repeat: no-repeat;
+	background-position: 30px;
+	}
+table.tab10 td.tdl2{
+	text-align:left;
+	padding-left:20px;
+	vertical-align: top;
+	}
+table.tab10 td.tdl3{
+	text-align:left;
+	padding-left:20px;
+	vertical-align: top;
+	background-image: url(../images/icon_cont/buttet_01.gif);
+	background-align: top;
+	background-repeat: no-repeat;
+	background-position: 7px;
+	}
+table.tab10 td.tdl4{
+	text-align:left;
+	padding-left:20px;
+	vertical-align: top;
+	font-size:16px;
+	font-weight :bold;
+	background-image: url(../images/icon_cont/buttet_02.gif);
+	background-align: top;
+	background-repeat: no-repeat;
+	background-position: 1px;
+	}
+table.tab10 td.tdl5{
+	text-align:left;	
+	font-size:12px;
+	font-weight :bold ;
+	padding-left:8px;
+	vertical-align: top;
+	}
+table.tab10 td.tdl6{
+	text-align:left;
+	padding-left:20px;
+	vertical-align: middle;
+	background-image: url(../images/icon_cont/arrow_06.gif);
+	background-align: middle;
+	background-repeat: no-repeat;
+	background-position: 5px;
+	}
+table.tab10 td.tdl7{
+	text-align:left;
+	padding-left:30px;
+	vertical-align: middle;
+	background-image: url(../images/icon_cont/arrow_09.gif);
+	background-align: middle;
+	background-repeat: no-repeat;
+	background-position: 15px;
+	}
+table.tab10 td.tdr{ text-align:right; vertical-align: middle;}
+table.tab10 td.tdrbold{ text-align:right; vertical-align: middle; font-weight :bold ;}
+table.tab10 td.tdc{ text-align:center ;vertical-align: middle;}
+/* ------------  orange  -------------------------------*/
+table.tab10 td.tdc1{
+	text-align: center;
+	vertical-align: middle;
+	color: #FF9900;
+	}
+/* ------------  greean  -------------------------------*/
+table.tab10 td.tdc2{
+	text-align: center;
+	vertical-align: middle;
+	color: #339900;
+	}
+/* ------------  cyan  -------------------------------*/
+table.tab10 td.tdc3{
+	text-align: center;
+	vertical-align: middle;
+	color: #008B8B;
+	}
+/* ------------  darkorange  -------------------------------*/
+table.tab10 td.tdc4{
+	text-align: center;
+	vertical-align: middle;
+	color: #996600;
+	}
+
+table.tab10 th{
+	word-break:nowrap;
+	padding: 0.4em;
+}
+
+table.tab10 th.thl{ 
+	text-align: left;
+	padding-left:10px;
+	background-color: #F4F4F4;
+	}
+table.tab10 th.thr{
+	text-align: right;
+	background-color: #F4F4F4;
+	}
+table.tab10 th.thc{
+	text-align: center;
+	background-color: #F4F4F4;
+	}
+/* ------------  orange  -------------------------------*/
+table.tab10 th.thc1{
+	text-align: center;
+	background-color: #FF9900;
+	color: #FFFFFF;
+	}
+/* ------------  greean  -------------------------------*/
+table.tab10 th.thc2{
+	text-align: center;
+	background-color: #339900;
+	color: #FFFFFF;
+	}
+/* ------------  cyan  -------------------------------*/
+table.tab10 th.thc3{
+	text-align: center;
+	background-color: #008B8B;
+	color: #FFFFFF;
+	}
+/* ------------  darkorange  -------------------------------*/
+table.tab10 th.thc4{
+	text-align: center;
+	background-color: #996600;
+	color: #FFFFFF;
+	}
+table.tab10 th.thla{
+	text-align: left;
+	color: #585858;
+	padding-left:5px;
+	vertical-align: middle;
+	background-image: url(../images/icon_thla.gif);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	}
+	
+table.tab10 th.thca{
+	text-align: center;
+	color: #FF0033;
+	padding-left:5px;
+	vertical-align: middle;
+	background-image: url(../images/icon_thla.gif);
+	background-repeat: no-repeat;
+	background-position: 0px;
+}
+					
+
+table.tab10 th.thlm{
+	text-align: left;
+	color: #585858;
+	word-break:nowrap;
+	padding-left:15px;
+	background: url('../images/icon_thlm.gif') no-repeat 0px;
+	}
+/* ------------  boardtab  -------------------------------*/
+table.boardtab {
+	width: 650px;
+	font-size:0.8em;
+	}
+table.boardtab td{
+	padding: 0.2em;
+}
+
+table.boardtab td.tdl{ text-align:left ; vertical-align: middle; }
+table.boardtab td.tdr{ text-align:right; vertical-align: middle;}
+table.boardtab td.tdrbold{ text-align:right; vertical-align: middle; font-weight :bold ;}
+table.boardtab td.tdc{ text-align:center ;vertical-align: middle;}
+
+table.boardtab th{
+	word-break:nowrap;
+	padding: 0.4em;
+}
+
+/* ------------  table 0  -------------------------------*/
+table.tab0 {
+	width: 650px;
+	font-size:0.8em;
+	font-family: "돋움", Dotum, Verdana, sans-serif;
+	}
+table.tab0 td{
+	padding: 0.2em;
+}
+
+table.tab0 td.tdl{ text-align:left ; vertical-align: middle; }
+table.tab0 td.tdlt{ text-align:left ; vertical-align: top; }
+table.tab0 td.tdlbold{ text-align:left; vertical-align: middle; font-weight :bold;}
+table.tab0 td.tdl1{
+	text-align:left;
+	font-size:12px;
+	padding-left:20px;
+	vertical-align: middle;
+	background-image: url(../images/icon_cont/arrow_03.gif);
+	background-align: middle;
+	background-repeat: no-repeat;
+	background-position: 10px;
+	}
+table.tab0 td.tdl2{
+	text-align:left;
+	padding-left:20px;
+	vertical-align: top;
+	}
+table.tab0 td.tdl3{
+	text-align:left;
+	padding-left:20px;
+	vertical-align: top;
+	background-image: url(../images/icon_cont/buttet_01.gif);
+	background-align: top;
+	background-repeat: no-repeat;
+	background-position: 7px;
+	}
+table.tab0 td.tdl4{
+	text-align:left;
+	padding-left:20px;
+	vertical-align: top;
+	font-size:16px;
+	font-weight :bold;
+	background-image: url(../images/icon_cont/buttet_02.gif);
+	background-align: top;
+	background-repeat: no-repeat;
+	background-position: 1px;
+	}
+table.tab0 td.tdl5{
+	text-align:left;	
+	font-size:12px;
+	font-weight :bold ;
+	padding-left:8px;
+	vertical-align: top;
+	}
+table.tab0 td.tdl6{
+	text-align:left;
+	padding-left:20px;
+	vertical-align: middle;
+	background-image: url(../images/icon_cont/arrow_06.gif);
+	background-align: middle;
+	background-repeat: no-repeat;
+	background-position: 5px;
+	}
+table.tab0 td.tdl7{
+	text-align:left;
+	padding-left:30px;
+	vertical-align: middle;
+	background-image: url(../images/icon_cont/arrow_09.gif);
+	background-align: middle;
+	background-repeat: no-repeat;
+	background-position: 15px;
+	}
+table.tab0 td.tdr{ text-align:right; vertical-align: middle;}
+table.tab0 td.tdrbold{ text-align:right; vertical-align: middle; font-weight :bold ;}
+table.tab0 td.tdc{ text-align:center ;vertical-align: middle;}
+/* ------------  orange  -------------------------------*/
+table.tab0 td.tdc1{
+	text-align: center;
+	vertical-align: middle;
+	color: #FF9900;
+	}
+/* ------------  greean  -------------------------------*/
+table.tab0 td.tdc2{
+	text-align: center;
+	vertical-align: middle;
+	color: #339900;
+	}
+/* ------------  cyan  -------------------------------*/
+table.tab0 td.tdc3{
+	text-align: center;
+	vertical-align: middle;
+	color: #008B8B;
+	}
+/* ------------  darkorange  -------------------------------*/
+table.tab0 td.tdc4{
+	text-align: center;
+	vertical-align: middle;
+	color: #996600;
+	}
+
+table.tab0 th{
+	word-break:nowrap;
+	padding: 0.4em;
+}
+
+table.tab0 th.thl{ 
+	text-align: left;
+	padding-left:10px;
+	background-color: #F4F4F4;
+	}
+table.tab0 th.thr{
+	text-align: right;
+	background-color: #F4F4F4;
+	}
+table.tab0 th.thc{
+	text-align: center;
+	background-color: #F4F4F4;
+	}
+/* ------------  orange  -------------------------------*/
+table.tab0 th.thc1{
+	text-align: center;
+	background-color: #FF9900;
+	color: #FFFFFF;
+	}
+/* ------------  greean  -------------------------------*/
+table.tab0 th.thc2{
+	text-align: center;
+	background-color: #339900;
+	color: #FFFFFF;
+	}
+/* ------------  cyan  -------------------------------*/
+table.tab0 th.thc3{
+	text-align: center;
+	background-color: #008B8B;
+	color: #FFFFFF;
+	}
+/* ------------  darkorange  -------------------------------*/
+table.tab0 th.thc4{
+	text-align: center;
+	background-color: #996600;
+	color: #FFFFFF;
+	}
+table.tab0 th.thla{
+	text-align: left;
+	color: #585858;
+	padding-left:5px;
+	vertical-align: middle;
+	background-image: url(../images/icon_thla.gif);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	}
+	
+table.tab0 th.thca{
+	text-align: center;
+	color: #FF0033;
+	padding-left:5px;
+	vertical-align: middle;
+	background-image: url(../images/icon_thla.gif);
+	background-repeat: no-repeat;
+	background-position: 0px;
+}
+					
+
+table.tab0 th.thlm{
+	text-align: left;
+	color: #585858;
+	word-break:nowrap;
+	padding-left:15px;
+	background: url('../images/icon_thlm.gif') no-repeat 0px;
+	}
+	
+/* ------------  table 1  -------------------------------*/
+table.tab1 {
+	width: 650px;
+	font-size:0.75em;
+	border-top: 3px solid #DDDDDD;
+	border-bottom: 2px solid #DDDDDD;
+	border-left: 1px dotted #C5C4C4;
+	border-right: 1px dotted #C5C4C4;
+	}
+table.tab1 td{
+	padding: 0.4em;
+	border-bottom: 1px solid #DDDDDD;
+}
+table.tab1 td.tdl{ text-align:left ; vertical-align: middle; }
+table.tab1 td.tdr{ text-align: right;vertical-align: middle;}
+table.tab1 td.tdc{ text-align:center ;vertical-align: middle;}
+
+table.tab1 th{
+	word-break:nowrap;
+	padding: 0.4em;
+	border-bottom: 1px solid #DDDDDD; 
+	border-left: 1px dotted #C5C4C4;
+	border-right: 1px dotted #C5C4C4;
+	background-color: #F4F4F4;
+	}
+table.tab1 th.thl{ 
+	text-align: left;
+	padding-left:15px;
+	background: url('../images/icon_thl.gif') no-repeat 0px;
+	}
+table.tab1 th.thr{
+	text-align: right;
+	background-color: #F4F4F4;
+	}
+table.tab1 th.thc{
+	text-align: center;
+	background-color: #F4F4F4;
+	}
+
+table.tab1 th.thla{
+	text-align: left;
+	color: #585858;
+	padding-left:5px;
+	vertical-align: middle;
+	background-image: url(../images/icon_thla.gif);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	}
+					
+
+table.tab1 th.thlm{
+	text-align: left;
+	color: #585858;
+	word-break:nowrap;
+	padding-left:15px;
+	background: url('../images/icon_thlm.gif') no-repeat 0px;
+	}
+	
+/* ------------  table 2  -------------------------------*/
+table.tab2 {
+	width: 650px;
+	font-size:0.75em;
+	border-top: 3px solid #DDDDDD;
+	border-bottom: 2px solid #DDDDDD;
+	border-left: 1px solid #C5C4C4;
+	border-right: 1px solid #C5C4C4;
+	}
+table.tab2 td{
+	padding: 0.4em;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	border-left: 1px solid #C5C4C4;
+	border-right: 1px solid #C5C4C4;
+}
+table.tab2 td.tdl{ text-align:left ; vertical-align: middle; }
+table.tab2 td.tdlt{ text-align:left ; vertical-align: top; }
+table.tab2 td.tdlbold{ text-align:left; vertical-align: middle; font-weight :bold ;}
+table.tab2 td.tdr{ text-align:right; vertical-align: middle;}
+table.tab2 td.tdrbold{ text-align:right; vertical-align: middle; font-weight :bold ;}
+table.tab2 td.tdc{ text-align:center ;vertical-align: middle;}
+/* ------------  orange  -------------------------------*/
+table.tab2 td.tdc1{
+	text-align: center;
+	vertical-align: middle;
+	color: #FF9900;
+	}
+/* ------------  greean  -------------------------------*/
+table.tab2 td.tdc2{
+	text-align: center;
+	vertical-align: middle;
+	color: #339900;
+	}
+/* ------------  cyan  -------------------------------*/
+table.tab2 td.tdc3{
+	text-align: center;
+	vertical-align: middle;
+	color: #008B8B;
+	}
+/* ------------  darkorange  -------------------------------*/
+table.tab2 td.tdc4{
+	text-align: center;
+	vertical-align: middle;
+	color: #996600;
+	}
+table.tab2 td.tdca{
+	text-align:center;
+	color: #0000FF;
+	padding-left:5px;
+	vertical-align: middle;
+	background-image: url(../images/icon_thla.gif);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	}
+
+table.tab2 th{
+	word-break:nowrap;
+	padding: 0.4em;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD; 
+	border-left: 1px solid #C5C4C4;
+	border-right: 1px solid #C5C4C4;
+	background-color: #F4F4F4;
+	}
+table.tab2 th.thl{ 
+	text-align: left;
+	padding-left:10px;
+	background-color: #F4F4F4;
+	}
+table.tab2 th.thr{
+	text-align: right;
+	background-color: #F4F4F4;
+	}
+table.tab2 th.thc{
+	text-align: center;
+	background-color: #F4F4F4;
+	}
+/* ------------  orange  -------------------------------*/
+table.tab2 th.thc1{
+	text-align: center;
+	background-color: #FF9900;
+	color: #FFFFFF;
+	}
+/* ------------  greean  -------------------------------*/
+table.tab2 th.thc2{
+	text-align: center;
+	background-color: #339900;
+	color: #FFFFFF;
+	}
+/* ------------  cyan  -------------------------------*/
+table.tab2 th.thc3{
+	text-align: center;
+	background-color: #008B8B;
+	color: #FFFFFF;
+	}
+/* ------------  darkorange  -------------------------------*/
+table.tab2 th.thc4{
+	text-align: center;
+	background-color: #996600;
+	color: #FFFFFF;
+	}
+table.tab2 th.thla{
+	text-align: left;
+	color: #585858;
+	padding-left:5px;
+	vertical-align: middle;
+	background-image: url(../images/icon_thla.gif);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	}
+	
+table.tab2 th.thca{
+	text-align: center;
+	color: #FF0033;
+	padding-left:5px;
+	vertical-align: middle;
+	background-image: url(../images/icon_thla.gif);
+	background-repeat: no-repeat;
+	background-position: 0px;
+}
+					
+
+table.tab2 th.thlm{
+	text-align: left;
+	color: #585858;
+	word-break:nowrap;
+	padding-left:15px;
+	background: url('../images/icon_thlm.gif') no-repeat 0px;
+	}
+	
+/* ------------  table 3  -------------------------------*/
+table.tab3 {
+	width: 300px;
+	align: center;
+	font-size:0.75em;
+	border-top: 3px solid #DDDDDD;
+	border-bottom: 2px solid #DDDDDD;
+	border-left: 1px dotted #C5C4C4;
+	border-right: 1px dotted #C5C4C4;
+	}
+table.tab3 td{
+	padding: 0.4em;
+	border-bottom: 1px solid #DDDDDD;
+}
+table.tab3 td.tdl{ text-align:left ; vertical-align: middle; }
+table.tab3 td.tdr{ text-align: right;vertical-align: middle;}
+table.tab3 td.tdc{ text-align:center ;vertical-align: middle;}
+
+table.tab3 th{
+	word-break:nowrap;
+	padding: 0.4em;
+	border-bottom: 1px solid #DDDDDD; 
+	border-left: 1px dotted #C5C4C4;
+	border-right: 1px dotted #C5C4C4;
+	background-color: #F4F4F4;
+	}
+table.tab3 th.thl{ 
+	text-align: left;
+	padding-left:15px;
+	background: url('../images/icon_thl.gif') no-repeat 0px;
+	}
+table.tab3 th.thr{
+	text-align: right;
+	background-color: #F4F4F4;
+	}
+table.tab3 th.thc{
+	text-align: center;
+	background-color: #F4F4F4;
+	}
+
+table.tab3 th.thla{
+	text-align: left;
+	color: #585858;
+	padding-left:5px;
+	vertical-align: middle;
+	background-image: url(../images/icon_thla.gif);
+	background-repeat: no-repeat;
+	background-position: 0px;
+	}
+					
+
+table.tab3 th.thlm{
+	text-align: left;
+	color: #585858;
+	word-break:nowrap;
+	padding-left:15px;
+	background: url('../images/icon_thlm.gif') no-repeat 0px;
+	}
+/* ------------  table 4  -------------------------------*/
+table.tab4 {
+	width: 670;
+	font-size:0.75em;
+	border-top:3px solid #DDDDDD;
+	border-bottom: 2px solid #DDDDDD;
+}
+
+table.tab4 td{padding: 0.4em; border-bottom: 1px solid #DDDDDD;}
+table.tab4 td.tdl{text-align:left; vertical-align: middle;}
+table.tab4 td.tdr{ text-align: right;vertical-align: middle;}
+table.tab4 td.tdc{ text-align:center;vertical-align: middle;}
+
+table.tab4 th {padding: 0.4em; border-bottom: 1px solid #DDDDDD;}
+table.tab4 th.thl{ text-align: left; background-color: #F4F4F4;}
+table.tab4 th.thr{ text-align: right; background-color: #F4F4F4;}
+table.tab4 th.thc{ text-align: center; background-color: #F4F4F4;}
+
+/* ------------  table 5  -------------------------------*/
+table.tab5 {
+	width: 650px;
+	font-size:0.75em;
+	border-top: 3px solid #DDDDDD;
+	border-bottom: 3px solid #DDDDDD;
+	border-left: 3px solid #DDDDDD;
+	border-right: 3px solid #DDDDDD;
+	}
+table.tab5 td{
+	padding: 0.4em;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+table.tab5 td.tdl{ text-align:left ; vertical-align: middle; }
+table.tab5 td.tdlt{ text-align:left ; vertical-align: top; }
+table.tab5 td.tdlbold{ text-align:left; vertical-align: middle; font-weight :bold ;}
+table.tab5 td.tdr{ text-align:right; vertical-align: middle;}
+table.tab5 td.tdrbold{ text-align:right; vertical-align: middle; font-weight :bold ;}
+table.tab5 td.tdc{ text-align:center ;vertical-align: middle;}
+/* ------------  orange  -------------------------------*/
+table.tab5 td.tdc1{
+	text-align: center;
+	vertical-align: middle;
+	color: #FF9900;
+	}
+/* ------------  greean  -------------------------------*/
+table.tab5 td.tdc2{
+	text-align: center;
+	vertical-align: middle;
+	color: #339900;
+	}
+/* ------------  cyan  -------------------------------*/
+table.tab5 td.tdc3{
+	text-align: center;
+	vertical-align: middle;
+	color: #008B8B;
+	}
+/* ------------  darkorange  -------------------------------*/
+table.tab5 td.tdc4{
+	text-align: center;
+	vertical-align: middle;
+	color: #996600;
+	}
+
+table.tab5 th{
+	word-break:nowrap;
+	padding: 0.4em;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD; 
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	background-color: #F4F4F4;
+	}
+table.tab5 th.thl{ 
+	text-align: left;
+	padding-left:10px;
+	background-color: #F4F4F4;
+	}
+table.tab5 th.thr{
+	text-align: right;
+	background-color: #F4F4F4;
+	}
+table.tab5 th.thc{
+	text-align: center;
+	background-color: #F4F4F4;
+	}
+
+/* ------------  table 6  -------------------------------*/
+table.tab6 {
+	width: 650px;
+	font-size:0.75em;
+	border-top: 3px solid #DDDDDD;
+	border-bottom: 3px solid #DDDDDD;
+	border-left: 3px solid #DDDDDD;
+	border-right: 3px solid #DDDDDD;
+	}
+table.tab6 td{
+	padding: 0.4em;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+table.tab6 td.tdl{ text-align:left ; vertical-align: middle; }
+table.tab6 td.tdlt{ text-align:left ; vertical-align: top; }
+table.tab6 td.tdlbold{ text-align:left; vertical-align: middle; font-weight :bold ;}
+table.tab6 td.tdr{ text-align:right; vertical-align: middle;}
+table.tab6 td.tdrt{ text-align:right; vertical-align: top;}
+table.tab6 td.tdrbold{ text-align:right; vertical-align: middle; font-weight :bold ;}
+table.tab6 td.tdc{ text-align:center ;vertical-align: middle;}
+table.tab6 td.tdct{ text-align:center ;vertical-align: top;}
+/* ------------  orange  -------------------------------*/
+table.tab6 td.tdc1{
+	text-align: center;
+	vertical-align: middle;
+	color: #FF9900;
+	}
+/* ------------  greean  -------------------------------*/
+table.tab6 td.tdc2{
+	text-align: center;
+	vertical-align: middle;
+	color: #339900;
+	}
+/* ------------  cyan  -------------------------------*/
+table.tab6 td.tdc3{
+	text-align: center;
+	vertical-align: middle;
+	color: #008B8B;
+	}
+/* ------------  darkorange  -------------------------------*/
+table.tab6 td.tdc4{
+	text-align: center;
+	vertical-align: middle;
+	color: #996600;
+	}
+
+table.tab6 th{
+	word-break:nowrap;
+	font-weight : normal;
+	padding: 0.4em;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD; 
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	background-color: #F4F4F4;
+	}
+table.tab6 th.thl{ 
+	text-align: left;
+	color : #3399FF;
+	padding-left:10px;
+	background-color: #F4F4F4;
+	}
+table.tab6 th.thr{
+	text-align: right;
+	color : #3399FF;
+	background-color: #F4F4F4;
+	}
+table.tab6 th.thrt{
+	text-align: right;
+	vertical-align: top;
+	color : #3399FF;
+	background-color: #F4F4F4;
+	}
+table.tab6 th.thc{
+	text-align: center;
+	color : #3399FF;
+	background-color: #F4F4F4;
+	}
+table.tab6 th.thct{
+	text-align: center;
+	vertical-align: top;
+	color : #3399FF;
+	background-color: #F4F4F4;
+	}
+
+/* ------------  table 6  -------------------------------*/
+table.tab7 {
+	width: 350px;
+	font-size:0.75em;
+	border-top: 3px solid #DDDDDD;
+	border-bottom: 3px solid #DDDDDD;
+	border-left: 3px solid #DDDDDD;
+	border-right: 3px solid #DDDDDD;
+	}
+table.tab7 td{
+	padding: 0.4em;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+table.tab7 td.tdl{ text-align:left ; vertical-align: middle; }
+table.tab7 td.tdlt{ text-align:left ; vertical-align: top; }
+table.tab7 td.tdlbold{ text-align:left; vertical-align: middle; font-weight :bold ;}
+table.tab7 td.tdr{ text-align:right; vertical-align: middle;}
+table.tab7 td.tdrt{ text-align:right; vertical-align: top;}
+table.tab7 td.tdrbold{ text-align:right; vertical-align: middle; font-weight :bold ;}
+table.tab7 td.tdc{ text-align:center ;vertical-align: middle;}
+table.tab7 td.tdct{ text-align:center ;vertical-align: top;}
+/* ------------  orange  -------------------------------*/
+table.tab7 td.tdc1{
+	text-align: center;
+	vertical-align: middle;
+	color: #FF9900;
+	}
+/* ------------  greean  -------------------------------*/
+table.tab7 td.tdc2{
+	text-align: center;
+	vertical-align: middle;
+	color: #339900;
+	}
+/* ------------  cyan  -------------------------------*/
+table.tab7 td.tdc3{
+	text-align: center;
+	vertical-align: middle;
+	color: #008B8B;
+	}
+/* ------------  darkorange  -------------------------------*/
+table.tab7 td.tdc4{
+	text-align: center;
+	vertical-align: middle;
+	color: #996600;
+	}
+
+table.tab7 th{
+	word-break:nowrap;
+	font-weight : normal;
+	padding: 0.4em;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD; 
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	background-color: #F4F4F4;
+	}
+table.tab7 th.thl{ 
+	text-align: left;
+	color : #3399FF;
+	padding-left:10px;
+	background-color: #F4F4F4;
+	}
+table.tab7 th.thr{
+	text-align: right;
+	color : #3399FF;
+	background-color: #F4F4F4;
+	}
+table.tab7 th.thrt{
+	text-align: right;
+	vertical-align: top;
+	color : #3399FF;
+	background-color: #F4F4F4;
+	}
+table.tab7 th.thc{
+	text-align: center;
+	color : #3399FF;
+	background-color: #F4F4F4;
+	}
+table.tab7 th.thct{
+	text-align: center;
+	vertical-align: top;
+	color : #3399FF;
+	background-color: #F4F4F4;
+	}
+
+/* ------------  tabnote  -------------------------------*/
+table.tabnote {
+	width: 500px;
+	font-size:0.75em;
+	border-top: 3px solid #DDDDDD;
+	border-bottom: 2px solid #DDDDDD;
+	border-left: 1px solid #C5C4C4;
+	border-right: 1px solid #C5C4C4;
+	}
+table.tabnote td{
+	padding: 0.4em;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	border-left: 1px solid #C5C4C4;
+	border-right: 1px solid #C5C4C4;
+}
+
+table.tabnote td.tdl{ text-align:left ; vertical-align: middle; }
+table.tabnote td.tdlt{ text-align:left ; vertical-align: top; }
+table.tabnote td.tdlbold{ text-align:left; vertical-align: middle; font-weight :bold ;}
+table.tabnote td.tdr{ text-align:right; vertical-align: middle;}
+table.tabnote td.tdrbold{ text-align:right; vertical-align: middle; font-weight :bold ;}
+table.tabnote td.tdc{ text-align:center ;vertical-align: middle;}
+
+table.tabnote th{
+	word-break:nowrap;
+	padding: 0.4em;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD; 
+	border-left: 1px solid #C5C4C4;
+	border-right: 1px solid #C5C4C4;
+	background-color: #F4F4F4;
+	}
+table.tabnote th.thl{ 
+	text-align: left;
+	padding-left:10px;
+	background-color: #F4F4F4;
+	}
+table.tabnote th.thr{
+	text-align: right;
+	background-color: #F4F4F4;
+	}
+table.tabnote th.thc{
+	text-align: center;
+	background-color: #F4F4F4;
+	}
+/* ------------  tabm  -------------------------------*/
+table.tabm {width: 780;font-size:0.75em;}
+
+table.tabm td{padding: 0.4em; }
+table.tabm td.tdl{text-align:left; vertical-align: middle;}
+table.tabm td.tdr{ text-align: right;vertical-align: middle;}
+table.tabm td.tdc{ text-align:center;vertical-align: middle;}
+
+table.tabm th {padding: 0.4em; }
+table.tabm th.thl{ text-align: left; background-color: #F4F4F4;}
+table.tabm th.thr{ text-align: right; background-color: #F4F4F4;}
+table.tabm th.thc{ text-align: center; background-color: #F4F4F4;}
+
+/* ------------  articles  -------------------------------*/
+table.articles td, table.articles th { border-bottom: 1px  solid #E8E6E6;  padding: 0.4em;}
+
+table.articles td.tdl{text-align:left ; }
+table.articles td.tdr{ text-align: right;}
+table.articles td.tdc{ text-align:center ;}
+
+table.articles th.thl{ text-align: left;  background-color: #F4F4F4; word-break:nowrap;}
+table.articles th.thr{ text-align: right;  background-color: #F4F4F4; word-break:nowrap;}
+table.articles th.thc{ text-align: center;  background-color: #F4F4F4; word-break:nowrap;}
+
+table.articles span.pri{font-weight :bold ;}
+
+/* ------------  result  -------------------------------*/
+table.result {}
+table.result td.main { text-align: left; background-color: #F7FAFA; padding: 0.4em; }
+table.result td.detail { text-align: left; background-color: #F7FAFA; }
+table.result td.links { text-align: center; background-color: #F7FAFA; }
+
+/* ------------  login  -------------------------------*/
+table.login {
+	width: 650px;
+	font-size:0.9em;
+	cellpadding:0;
+	}
+table.login td{
+	padding: 0.4em;
+}
+table.login td.tdl{ text-align:left ; vertical-align: middle; }
+table.login td.tdlt{ text-align:left ; vertical-align: top; }
+table.login td.tdr{ text-align:right; vertical-align: middle;}
+table.login td.tdrbold{ text-align:right; vertical-align: middle; font-weight :bold ;}
+table.login td.tdc{ text-align:center ;vertical-align: middle;}
+/* ------------  orange  -------------------------------*/
+table.login td.tdc1{
+	text-align: center;
+	vertical-align: middle;
+	color: #FF9900;
+	}
+/* ------------  greean  -------------------------------*/
+table.login td.tdc2{
+	text-align: center;
+	vertical-align: middle;
+	color: #339900;
+	}
+/* ------------  cyan  -------------------------------*/
+table.login td.tdc3{
+	text-align: center;
+	vertical-align: middle;
+	color: #008B8B;
+	}
+/* ------------  darkorange  -------------------------------*/
+table.login td.tdc4{
+	text-align: center;
+	vertical-align: middle;
+	color: #996600;
+	}
+table.login td.tdlb{
+	text-align: left;
+	vertical-align: bottom;
+	color: #996600;
+	}
+
+table.login th{
+	word-break:nowrap;
+	padding: 0.4em;
+	}
+table.login th.thl{ 
+	text-align: left;
+	padding-left:10px;
+	}
+table.login th.thr{
+	text-align: right;
+	}
+table.login th.thc{
+	text-align: center;
+	}
+/* ------------  orange  -------------------------------*/
+table.login th.thc1{
+	text-align: center;
+	color: #FFFFFF;
+	}
+/* ------------  greean  -------------------------------*/
+table.login th.thc2{
+	text-align: center;
+	color: #FFFFFF;
+	}
+/* ------------  cyan  -------------------------------*/
+table.login th.thc3{
+	text-align: center;
+	color: #FFFFFF;
+	}
+table.login input.text{
+	width:160px; height:20px
+	}
+
+/* ------------ subtab  -------------------------------*/
+ul.subtab { 
+	width: 670px;
+	margin: 0 0 5 0; 
+	padding: 0 0 0 10 ;
+	min-height: 20px; 
+	height: 27px; 
+	font-size: 12px;
+	background-image: url('../images/topnav_tabbg.gif'); 
+	background-repeat: repeat-x;
+	background-position:left ;
+}
+ul.subtab li {
+	margin: 0; 
+	padding: 9 15 0;	
+	text-align:center; 
+	/*width: 140px;*/ 
+	height:27px; 
+	display: inline; 
+	list-style: none; 
+	background-position: right;
+	background: url('../images/topnav_tabstart_selected_inline.gif') repeat-x;
+	}
+ul.subtab li.selected {
+	padding: 9 15 0 ; 
+	display: inline; 
+	list-style: none; 
+	/*width: 140px;*/ 
+	height:27px; 
+	text-align:center; 
+	color:#333333;
+	font-weight: bold; 
+ 	background-image: url('../images/topnav_tabbg_selected.gif'); 
+	background-repeat: repeat-x;
+	background-position: right; 
+	background-position:bottom ;		
+	}
+ul.subtab li.disabled {
+	margin: 0; 
+	padding: 9 15 0; 
+	display: inline; 
+	list-style: none;}
+ul.subtab a{ 
+	font-weight: bold; 
+	text-decoration: none; 
+	font-size: 12px; 
+	color: #B1B1B1;  
+	}
+ul.subtab a:hover{color: #FF2400;  }
+ul.subtab a:visited{color: #B1B1B1;  }
+	
+ul.subtab li.selected a{ 
+	font-weight: bold; 
+	text-decoration: none; 
+	font-size: 12px; 
+	color: #333333;
+	text-shadow: #415500 0px 0px 5px;  
+	}
+ul.subtab li.selected a:hover{ 
+	font-weight: bold; 
+	text-decoration: none; 
+	font-size: 12px; 
+	color: #FF2400;
+	text-shadow: #415500 0px 0px 5px;  
+	}
+ul.subtab li.selected a:visited{ 
+	font-weight: bold; 
+	text-decoration: none; 
+	font-size: 12px; 
+	color: #B1B1B1;
+	text-shadow: #415500 0px 0px 5px;
+	  
+	}
+
+/* ------------  btn2,btn4 글자수에 맞추어 쓰세요-------------------------------*/
+a.btn2 { 
+	margin: 2px; 
+	padding: 3 0 0 0px; 
+	width: 100px; 
+	min-width: 100px; 
+	height: 18px;
+	color: #264F57; 
+	font-family: "����"; color:#264F57;
+	text-decoration: none; 
+	text-align:center; 
+	background-image: url('../images/btn2.gif'); 
+	background-repeat: no-repeat; 
+	}
+a.btn4 { 
+	margin: 2px; 
+	padding: 3 0 0 0px; 
+	width: 170px; 
+	min-width: 170px; 
+	height: 18px; color: #264F57; 
+	text-decoration: none; 
+	text-align:center; 
+	background-image: url('../images/btn4.gif'); 
+	background-repeat: no-repeat; 
+	}
+a.btn2:link{ font-size:12px; color:#264F57; }
+a.btn2:visited{ font-size:12px; color:#264F57; }
+a.btn2:hover{ font-size:12px; color:#F50008; }
+a.btn4:link{ font-size:12px; color:#264F57; }
+a.btn4:visited{	font-size:12px; color:#264F57; }
+a.btn4:hover{ font-size:12px; color:#F50008; }
+	
+/* ------------  btna2,btna4 글자수에 맞추어 쓰세요-------------------------------*/
+a.btna2 { 
+	margin: 2px; 
+	padding: 5 0 0 0px; 
+	width: 100px; 
+	min-width: 100px; 
+	height: 20px;  
+	text-decoration: none; 
+	text-align:center; 
+	background-image: url('../images/btna2.gif'); 
+	background-repeat: no-repeat; 
+	}
+a.btna4 { 
+	margin: 2px; 
+	padding: 5 0 0 0px; 
+	width: 150px; 
+	min-width: 150px;  
+	height: 20px; color:#ffffff;
+	text-decoration: none; 
+	text-align:center; 
+	background-image: url('../images/btna4.gif'); 
+	background-repeat: no-repeat; 
+	}
+a.btna2:link{ font-size:12px; color:#FFFFFF;  font-weight:bold;}
+a.btna2:visited{ font-size:12px; color:#FFFFFF;  font-weight:bold;}
+a.btna2:hover{ font-size:12px; color:#F6FF00;  font-weight:bold;}
+a.btna4:link{ font-size:12px; color:#FFFFFF;  font-weight:bold;}
+a.btna4:visited{ font-size:12px; color:#FFFFFF;  font-weight:bold;}
+a.btna4:hover{ font-size:12px; color:#F6FF00;  font-weight:bold;}
+
+/* ------------  btn버튼정렬 --------------------------------------------------*/
+div.bbtn { text-align: center; padding: 15px; border: 0px; }
+div.bbtn_c{font-size:0.75em; text-align :center; vertical-align: middle; width:650; color:#F50008;}
+div.bbtn_l{;text-align :left; width:780;padding-left:4;}
+div.bbtn_r{text-align :right; width:780;padding-right:4;}
+
+/* ------------  A링크 ------------------------------------------------------*/
+A:link		{font-family: "돋움"; color:#585858;  text-decoration:none; }
+A:visited	{font-family: "돋움"; color:#585858;  text-decoration:none; }
+A:hover		{font-family: "돋움";  color:#F50008;  text-decoration:none; }
+
+/* --------------------------------------------------*/	
+div.subtitle{
+	color: #585858;
+	text-align:left;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "돋움", Dotum, Verdana, sans-serif;
+	padding: 3px 0px 0px 15px;
+	marign:2px 0px 2px 0px;
+	background: url('../images/icon_cont/arrow_07.gif') no-repeat 0px;
+}
+div.login_id {
+	position:absolute;
+	left:370px;
+	top:183px;
+	z-index:1;
+}
+div.login_pass {
+	position:absolute;
+	left:370px;
+	top:212px;
+	z-index:2;
+}
+div.tabs-area {   
+    position:relative;   
+    z-index:2;   
+    width:100%;   
+    height:48px;   
+    padding:0;margin:0;overflow:hidden;   
+}    
+div.tabs-line {   
+    position:relative;   
+    z-index:1;   
+    width:100%;   
+    height:0;   
+    top:-1px;   
+    border-top:1px solid #D3D9E6;   
+}
+div.show        { display:block;}   
+div.hide        { display:none; }  
+ul.tabs {   
+    padding:0px;margin:0px;   
+    z-index:2;   
+}   
+  
+ul.tabs li {   
+    list-style:none;   
+    display:inline;   
+    height:50px;   
+}   
+  
+ul.tabs li a {   
+    padding:5px 20px 3px 20px;   
+    border:1px solid #D3D9E6;   
+    text-decoration:none;      
+    font-size:9pt;   
+    line-height:30px;   
+    color:#4B69AF;    
+    background:#E9ECF2;   
+}   
+  
+ul.tabs li a:hover {      
+    background:#E8FFFF;   
+}   
+  
+ul.tabs li a.active {      
+    background:#fff;   
+    color:#4B69AF;      
+    border:1px solid #D3D9E6;       
+    border-bottom: 1px solid #ffffff;      
+    padding:10px 20px 3px 20px;   
+    font-weight:bold;   
+    line-height:70px;   
+} 
+
+
+/* CSS Tabs */
+ul.navlist {
+        padding: 3px 0;
+        margin-left: 0;
+        border-bottom: 1px solid #778;
+        font: 12px 돋움, Verdana, sans-serif;
+}
+
+ul.navlist li {
+        list-style: none;
+        margin: 0;
+        display: inline;
+}
+
+ul.navlist li a {
+        padding: 3px 0.5em;
+        margin-left: 3px;
+        border: 1px solid #778;
+        border-bottom: none;
+        background: #DDE;
+        text-decoration: none;
+}
+
+ul.navlist li a:hover {
+        color: #000;
+        background: #999999;
+        border-color: #227;
+}
+
+ul.navlist li a.active {
+        background: white;
+        border-bottom: 1px solid white;
+}
+
+ul.navlist li a#current {
+        background: white;
+        border-bottom: 1px solid white;
+}

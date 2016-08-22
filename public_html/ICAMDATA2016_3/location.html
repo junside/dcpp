@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE> ICAMDATA 2016 </TITLE>
+<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="css/ie6_or_less.css" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script>
+function initialize() {
+
+	/*
+		http://openapi.map.naver.com/api/geocode.php?key=f32441ebcd3cc9de474f8081df1e54e3&encoding=euc-kr&coord=LatLng&query=서울특별시 강남구 강남대로 456
+              위의 링크에서 뒤에 주소를 적으면 x,y 값을 구할수 있습니다.
+	*/
+	var Y_point			= 35.949821;		// Y 좌표
+	var X_point			= 126.585096;		// X 좌표
+
+	var zoomLevel		= 16;						// 지도의 확대 레벨 : 숫자가 클수록 확대정도가 큼
+
+	var markerTitle		= "GSCO";				// 현재 위치 마커에 마우스를 오버을때 나타나는 정보
+	var markerMaxWidth	= 300;						// 마커를 클릭했을때 나타나는 말풍선의 최대 크기
+
+	// 말풍선 내용
+	var contentString	= '<div>' +
+	'<h2>위즈소프트</h2>'+
+	'<p>위즈소프트는 WEB Agency & SI 분야에서 10년 이상의 풍부한 경험을 보유한<br />' +
+          '전문 인력으로 구성된 E-Business 전문 기업입니다.</p>' +
+	//'<a href="http://www.daegu.go.kr" target="_blank">http://www.daegu.go.kr</a>'+ //링크도 넣을 수 있음
+	'</div>';
+
+	var myLatlng = new google.maps.LatLng(Y_point, X_point);
+	var mapOptions = {
+						zoom: zoomLevel,
+						center: myLatlng,
+						mapTypeId: google.maps.MapTypeId.ROADMAP
+	}
+	var map = new google.maps.Map(document.getElementById('map_view'), mapOptions);
+
+	var marker = new google.maps.Marker({
+											position: myLatlng,
+											map: map,
+											title: markerTitle
+	});
+
+	var infowindow = new google.maps.InfoWindow(
+												{
+													content: contentString,
+													maxWidth: markerMaxWidth
+												}
+	);
+
+	google.maps.event.addListener(marker, 'click', function() {
+		infowindow.open(map, marker);
+	});
+}
+	
+var nCount = 0;
+var $img1 = null;
+
+jQuery(document).ready(function(){
+	// 초기화.
+	init();
+	// 타이머 시작.
+	start();
+});
+		
+function init(){			
+	//1. image Element 구하기.
+	this.$img1 = $("#img1");
+}
+function start(){
+	// 1초에 한번씩 changeImage()함수를 호출하는 타이머를 실행시킵니다.
+	setInterval(this.changeImage,3000);
+}
+
+// 이미지 변경은 여기에서
+function changeImage(){
+	this.nCount++;
+	//현재 숫자값이 11을 넘게 되면 다시 1로 만들어주면 되겠죠?
+	if(this.nCount>=16)
+		this.nCount	= 1;
+	
+	//2. image 속성 변경하기.
+	this.$img1.attr("src","images/img"+this.nCount+".jpg");
+}
+
+//새창띄우기
+function openNewWindow(window) {
+	open (window,"NewWindow","left=0, top=0, toolbar=yes, location=yes, directories=yes, status=yes, menubar=yes, scrollbars=yes, resizable=yes, width=1260, height=850");
+}
+</script>
+</head>
+<body id="type-d" onload="initialize()">
+<div id="wrap">
+	<div id="header">
+		<div id="site-name">ICAMDATA 2016</div>
+		<div id="site-name-m">The 10th International Conference on Atomic and Molecular Data and Their Applications</div>
+		<div id="site-name-s">Gunsan Saemangeum Convention Center (GSCO), Gunsan, Republic of Korea, September 25 ~ 29, 2016</div>
+		<ul id="nav">
+			<li class="first"><a href="index.html">Home</a></li>
+			<li><a href="informations.html">Informations</a>
+			</li>
+			<li><a href="speaker.html">Invited Speakers</a>
+			</li>
+			<li><a href="registration.html">Registration</a>
+			</li>
+			<li><a href="programs.html">Programs</a>
+			</li>
+			<li><a href="abstract.html">Abstract</a>
+			</li>
+			<li><a href="location.html">Venue</a>
+			</li>
+			<li><a href="committee.html">Committees</a>
+			</li>
+			<li><a href=javascript:openNewWindow("http://physics.nist.gov/Icamdata/Homepage/charter.html")>History</a>
+				<ul>
+				<li><a href=javascript:openNewWindow("http://physics.nist.gov/Icamdata/Homepage/charter.html")>ICAMDATA Charter</a></li>
+				<li class="last"><a href=javascript:openNewWindow("http://physics.nist.gov/Icamdata/Homepage/icamdata.html")>ICAMDATA History</a></li>
+				</ul>
+			</li>
+			<li><a href="contact.html">Contact us</a>
+			</li>
+		</ul>
+	</div>
+	
+	<div id="content-wrap">
+		
+		<div id="content">
+		
+			<div id="breadcrumb">
+				<a href="index.html">Home</a> / <a href="location.html"><strong>Venue</strong></a>			
+			</div>					
+			
+			<h1>Venue</h1>
+			
+			<div class="article01">Gunsan city is near to the West sea and located in Jeollabuk-do Province 
+			in Republic of Korea. It is well known as a tumultuous historical sites, 
+			such as Gunsan Customs Office, Chosun Bank Gunsan Brance, Warehouse of Korea Express Co.,Ltd etc.<br/>
+			Also, Gunsan, located on the edge of central western coast, as a waist of the Korean peninsula, 
+			is in 2~3 hours away from anywhere in Korea (231km away from Seoul and 337km away from Busan). 
+			It is also the central city of Saemangeum, the biggest reclamation project after the origination of 
+			the country, and a port city of 114 years of history with various international routes, 
+			located 563km away from Qingdao, China, which is the shortest distance in Korea.<br/> 
+			For more information, visit Gunsan’s official website : <a href=javascript:openNewWindow("http://eng.gunsan.go.kr/index.gunsan")>http://eng.gunsan.go.kr/index.gunsan</a>
+			<br/>
+			(If you want to more big size, click the map.)
+			</div>			
+			<br/>			
+			<div class="cont_img">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12919.256732002624!2d126.58513962698517!3d35.951515285424776!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x69f8019fe791f9fc!2z6rWw7IKw7IOI66eM6riI7Luo67Kk7IWY7IS87YOA!5e0!3m2!1sko!2sus!4v1459735089777" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				&lt;Google map&gt;
+			</div>			
+			
+			<h1>Accommodation</h1>
+			
+					
+			<h3>To be updated</h3>
+			
+			<div class="clear">&nbsp;</div>	
+				
+			<h1>Transportation</h1>	
+					
+			<div class="article01">
+			You can get to the Gunsan Bus Terminal by Limousine bus at Bus stop No. <font color=red>9C</font>, Incheon International Airport.<br/>
+			Bus stop No. <font color=red>9C</font> is located in outside of airport building.<br/><br/>
+			
+			<div class="cont_img"><img src="images/content/bus_map.png" alt="" width=622 /></div>
+			
+			<strong>Limousine bus Schedule at Incheon International Airport</strong>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" class="table10">
+				<tr>
+					<th width="11%">Route Name</th>
+					<th width="11%">Bus Type</th>
+					<th width="20%">Station</th>
+					<th width="12%">Bus Stop No.</th>
+					<th width="20%">Time line of<br/>departing Buses</th>
+					<th width="13%">Travelling Time</th>
+					<th width="13%"class="ttn">Fare</th>
+				</tr>
+				<tr>
+					<td>Gunsan (Jeonra)</td>
+					<td>Limousine</td>
+					<td>Direct to Gunsan</td>
+					<td>1st Floor 9C</td>
+					<td>09:50, 12:50, 14:40, 16:40, 18:40, 20:40</td>
+					<td>210 min.</td>
+					<td class="ttn">KRW 23,700</td>
+				</tr>
+				<tr>
+					<td>Gunsan (Jeonra)</td>
+					<td>Limousine</td>
+					<td>Songdo Transfer  Center - Daeya - Gunsan</td>
+					<td>1st Floor 9C</td>
+					<td>08:20, 11:00, 15:40, 17:40, 19:40, 21:40 </td>
+					<td>225 min.</td>
+					<td class="ttn">KRW 23,700</td>
+				</tr>
+			</table>
+			(You may prepare the bus fare in Korean Won or purchase the bus ticket at the bus ticket office at the airport in advance.)
+			</div>
+			
+			<div class="clear">&nbsp;</div>
+
+		</div>
+		
+		<div id="footer">
+			<a href="http://www.nfri.re.kr/"><img src="wsimages/nfri_logo.png" alt="National Fusion Research Institute" width=110 height=35/></a>
+			<p class="title">Plasma Technology Research Center, National Fusion Research Institute</p>
+			<p>Address : 37 Dongjangsan-ro, Gunsan-si, Jeollabuk-do, Korea</p>  
+			<p>Tel : +82-63-440-4210, Fax : +82-63-466-7001</p>
+		</div>		
+				
+		<div id="sidebar">
+			<div class="featurebox">
+			<h3>Gunsan, Korea</h3>
+			<p align="center">
+			   <img id=img1 src="images/img1.jpg" />
+			</p>
+			</div>
+			<br/>
+			<p align="center">
+			<embed src="http://www.weatherlet.com/weather.swf?locid=KSXX0046&unit=m" title="Free Online Weather for WordPress, Blogspot, Blogger, Drupal, TypePad, MySpace, Facebook, Bebo, Piczo, Xanga, Freewebs, Netvibes, Pageflakes, iGoogle and other blogs and web pages" quality="high" wmode="transparent" bgcolor="#CC00CC" width="184" height="76" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /><br>
+			<a href="http://www.weatherlet.com/?locid=KSXX0046&cityname=Kunsan%2C+South+Korea&unit=m" title="Kunsan, South Korea Local Weather" target="_blank"><small>Gunsan(Kunsan), South Korea Local Weather</small></a></p>
+              
+		</div>
+		
+	</div>
+	
+</div>
+</body>
+</html>

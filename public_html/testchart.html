@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head> 
+	<title> flotr2 사용법 - 간단한 Bar 차트 </title>
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="flashcanvas.js"></script>
+  <![endif]-->
+  <style type="text/css">
+    #chart1 {
+      width : 600px;
+      height: 400px;
+      display: visible;
+    }
+  </style>
+  <script type="text/javascript" src="flotr2.min.js"></script>  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>  
+<body>  
+  
+<div id="chart1"></div>  
+  
+<script type="text/javascript">  
+	function basic_bars() {
+
+	  var chart1 = document.getElementById("chart1");  // 그릴 영역
+	  var data = [ [1,10], [2,3], [3,7],  [4,8], [5,9], [6,2] ];
+	            
+	  // Draw the graph
+	  Flotr.draw(
+	    chart1,
+	    [data],
+	    {
+	      bars : {
+	        show : true,
+	        shadowSize : 0,
+	        barWidth : 0.5
+	      },
+	      mouse : {
+	        track : true,
+	        relative : true
+	      },
+	      yaxis : {
+	        min : 0
+	      }
+	    }
+	  );
+	}
+	
+	// jQuery로 모든 요소가 처리된 후에 차트를 그린다.
+	$( window ).load( basic_bars );
+</script>  
+      
+</body></html>  

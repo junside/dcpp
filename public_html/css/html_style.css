@@ -1,0 +1,91 @@
+BODY {
+	FONT-SIZE: 12px; MARGIN: 0px; COLOR: #555555; FONT-FAMILY: "±¼¸²"
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #555555; LINE-HEIGHT: 20px; FONT-FAMILY: "±¼¸²"
+}
+P {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; FONT-FAMILY: "±¼¸²"
+}
+BR {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; FONT-FAMILY: "±¼¸²"
+}
+FORM {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; FONT-FAMILY: "±¼¸²"
+}
+OPTION {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; FONT-FAMILY: "±¼¸²"
+}
+INPUT {
+	{border: 1px solid #9CBDF7; background-color:#FFFFFF; background-position: 0% 0%; background-repeat: no-repeat; padding-left:3px; font-size:12px; }
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #555555; FONT-FAMILY: "±¼¸²"
+}
+TEXTAREA {
+	FONT-SIZE: 12px; COLOR: #555555; FONT-FAMILY: "±¼¸²"
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #dfdfdf; SCROLLBAR-SHADOW-COLOR: #595959; SCROLLBAR-3DLIGHT-COLOR: #595959; SCROLLBAR-ARROW-COLOR: #0025b4; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; SCROLLBAR-BASE-COLOR: #cfcfcf
+}
+A:link {
+	COLOR: #5B5B5B; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #0770ff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #0770ff; TEXT-DECORATION: none
+}
+.ad_mu_top {
+	FONT-WEIGHT: bold; COLOR: #00296e
+}
+.ad_mu_top A:link {
+	COLOR: #5B5B5B; TEXT-DECORATION: none
+}
+.ad_mu_top A:visited {
+	COLOR: #00296e; TEXT-DECORATION: none
+}
+.ad_mu_top A:active {
+	COLOR: #843a4e; TEXT-DECORATION: none
+}
+.ad_mu_top A:hover {
+	COLOR: #843a4e; TEXT-DECORATION: none
+}
+
+.ad_tit01 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #00104b; FONT-FAMILY: "µ¸¿ò","Verdana"
+}
+.ad_focus01 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #8f8f8f; FONT-FAMILY:  "±¼¸²"
+}
+.ad_focus02 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #013B76; FONT-FAMILY:  "±¼¸²"
+}
+.ad_focus03 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY:  "±¼¸²"
+}
+
+A.btn_wite:link    {font:12px ; color:#ffffff; font-weight:none; text-decoration:none; }
+A.btn_wite:visited {font:12px ; color:#ffffff; font-weight:none; text-decoration:none; }
+A.btn_wite:active  {font:12px ; color:#ffffff; font-weight:none; text-decoration:none; }
+A.btn_wite:hover   {font:12px ; color:#ffffff; font-weight:none; text-decoration:none; }
+
+.pd03_1 {padding: 5px 2px 0px 2px;}
+
+A:link {
+	COLOR: #0025b4; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #0025b4; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 14pt; FONT-FAMILY: "±¼¸²"
+}
